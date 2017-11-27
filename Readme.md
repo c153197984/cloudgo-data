@@ -51,6 +51,8 @@ For example, to insert a new user, do it as below
         panic(err)
     }
 
+ORM doesn't just implement an automatic DAO. DAO is just an encapsulation of one or multiple SQL statements to a certain data. ORM is more an encapsulation of general SQL statements themselves. It makes us easily do SQL operations to any data we want to work with.
+
 ### Comparison
 
 You simply can toggle comments in `main.go` to switch between `database/sql` and `xorm`. The key point is to compare the two ideas.
